@@ -50,10 +50,12 @@ The discriminative region is mapped back to the original frames in the video. Be
 shows the discriminative region and the corresponding frames for
 FCN. The frames are taken from regions marked with a red ellipse.
 
-![Alt text](figs/fcn_region.jpg)
-![Alt text](figs/fcn_frame.png)
+![Alt](figs/fcn_region.jpg)
+![Alt](figs/fcn_frame.png)
 
-Figure showing the discriminative region (left) and the corresponding frames (right) for class A for FCN-CAM.
+<em>**Fig 2** showing the discriminative region (left) and the corresponding frames (right) for class A for FCN-CAM. </em>
+
+
 ## Citation
 Please cite this paper if it helps in your research.
 
