@@ -1,0 +1,8 @@
+[MP]
+right_parts=RElbow,RAnkle,REar,REye,RHip,RKnee,RShoulder,RWrist
+left_parts=LElbow,LAnkle,LEar,LEye,LHip,LKnee,LShoulder,LWrist
+middle_parts=Neck,Nose
+important_parts=LElbow,RElbow,RHip,RShoulder,RWrist,LHip,LShoulder,LWrist
+peak_parts=RElbow,LElbow,RWrist,LWrist
+valid_classes=A,Arch,N,R
+class_combination=
