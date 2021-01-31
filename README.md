@@ -14,11 +14,11 @@ by highlighting the the discriminative region. We further compared the results w
 with the highly efficient ROCKET.
 
 ![Alt text](figs/overview.png?raw=true)
-<em>Overview of the proposed approach for the Military Press exercise. Going from raw video to
+<em>**Fig 1** showing the overview of the proposed approach for the Military Press exercise. Going from raw video to
 extracting and tracking body points using human pose estimation, and preparing the resulting data for
 time series classification and interpretation.</em>
 
-##Data Description
+### Data Description
 The data used are video recordings of the execution of the Military Press (MP) exercise.
 Participants completed 10 repetitions of the normal form and 10 repetitions of induced forms. 
 The data folder consist of the extracted time series data which is already splitted into training/testing using the 70/30 split.
@@ -28,7 +28,7 @@ There are roughly 1300 and 600 samples in training
 and testing data respectively. Each data sample is a multivariate time series data with a
 shape of 161x8 (161 length and 8 dimensions).
 
-##Installation
+### Installation
 Please use the requirements.txt file to install all the dependencies.
 
 
@@ -39,6 +39,7 @@ Classifier Name | Accuracy (Unnormalized data) | Accuracy (Normalized data)
 ROCKET | **0.81** | **0.68**
 FCN | **0.72** | **0.65**
 Resnet | **0.73** | **0.65**
+
 Table showing average accuracy on test data over three train/test splits. Normalising the time series
 significantly reduces the accuracy of all classifiers, due to losing information about the range and
 magnitude of the signal capturing the exercise movement.
