@@ -18,7 +18,7 @@ with the highly efficient ROCKET.
 extracting and tracking body points using human pose estimation, and preparing the resulting data for
 time series classification and interpretation.</em>
 
-### Data Description
+## Data Description
 The data used are video recordings of the execution of the Military Press (MP) exercise.
 Participants completed 10 repetitions of the normal form and 10 repetitions of induced forms. 
 The data folder consist of the extracted time series data which is already splitted into training/testing using the 70/30 split.
@@ -32,7 +32,7 @@ shape of 161x8 (161 length and 8 dimensions).
 Please use the requirements.txt file to install all the dependencies.
 
 
-##Results
+## Results
 Classifier Name | Accuracy (Unnormalized data) | Accuracy (Normalized data)
 --------------- | -----------------------------| ---------------
 1NN-DTW | 0.58 | 0.50 
@@ -44,7 +44,7 @@ Table showing average accuracy on test data over three train/test splits. Normal
 significantly reduces the accuracy of all classifiers, due to losing information about the range and
 magnitude of the signal capturing the exercise movement.
 
-##Visualization
+## Visualization
 We further exploited the class activation mapping (CAM) to find the discriminative region.
 The discriminative region is mapped back to the original frames in the video. Below figure
 shows the discriminative region and the corresponding frames for
