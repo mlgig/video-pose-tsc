@@ -29,7 +29,8 @@ and testing data respectively. Each data sample is a multivariate time series da
 shape of 161x8 (161 length and 8 dimensions).
 
 ### Installation
-Please use the requirements.txt file to install all the dependencies.
+Please use the requirements.txt file to install all the dependencies. There is a configuration script for each 
+classifier script which contains the relative paths exercise and data folders.
 
 
 ## Results
