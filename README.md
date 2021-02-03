@@ -58,7 +58,7 @@ for class A for FCN-CAM. </em>
 
 ## Citation
 Please cite this paper as:
-'''
+```
 @incollection{singh2021interpretable,
   title={Interpretable Classification of Human Exercise Videos through Pose Estimation and Multivariate Time Series Analysis},
   author={Singh, Ashish and Le, Binh Thanh and Le Nguyen, Thach and Whelan, Darragh and O’Reilly, Martin and Caulfield, Brian and Ifrim, Georgiana},
@@ -66,5 +66,5 @@ Please cite this paper as:
   booktitle = {5th International Workshop on Health Intelligence(W3PHIAI-21) at AAAI21},
   publisher={Springer}
 }
-'''
+```
 
