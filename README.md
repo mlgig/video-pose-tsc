@@ -6,7 +6,7 @@ the area of Human Pose Estimation for video and Multivariate Time Series Classif
 and Interpretation. The aim is to facilitate physiotherapists, coaches and rehabilitation
 patients by providing feedback after the execution of physical exercises. 
 
-The data used is the pre-recorded videos of the Military Press exercise. The first step consists of applying
+The data used are pre-recorded videos of the Military Press exercise. The first step consists of applying
 OpenPose to extract the time series data from the video. The second step
 classifies the extracted data using multivariate time series classification methods (MTSC). 
 We chose deep learning methods FCN and Resnet for classification and KNN (with n=1) as a baseline. 
