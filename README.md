@@ -11,7 +11,7 @@ OpenPose to extract the time series data from the video. The second step
 classifies the extracted data using multivariate time series classification methods (MTSC). 
 We chose deep learning methods FCN and Resnet for classification and 1NN-DTW as a baseline. 
 MTSC methods such as MrSEQL, FCN, Resnet also support interpretation 
-by highlighting the discriminative region. We further compared the results with 
+by highlighting the discriminative region. We further compared the results
 with the highly efficient ROCKET classifier, which also works well for multivariate time series.
 
 ![Alt text](figs/overview.png?raw=true)
