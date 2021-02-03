@@ -9,7 +9,7 @@ patients by providing feedback after the execution of physical exercises.
 The data used are pre-recorded videos of the Military Press exercise. The first step consists of applying
 OpenPose to extract the time series data from the video. The second step
 classifies the extracted data using multivariate time series classification methods (MTSC). 
-We chose deep learning methods FCN and Resnet for classification and KNN (with n=1) as a baseline. 
+We chose deep learning methods FCN and Resnet for classification and 1NN-DTW as a baseline. 
 MTSC methods such as MrSEQL, FCN, Resnet also support interpretation 
 by highlighting the discriminative region. We further compared the results with 
 with the highly efficient ROCKET classifier, which also works well for multivariate time series.
