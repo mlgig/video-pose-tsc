@@ -46,7 +46,7 @@ significantly reduces the accuracy of all classifiers, due to losing information
 magnitude of the signal capturing the exercise movement.
 
 ## Visualization
-We use the Class Activation Mapping (CAM) XAI approach to find the discriminative region for a given time series.
+We use the Class Activation Mapping (CAM) explanation approach to find the discriminative region for a given time series.
 The discriminative region is mapped back to the original frames in the video. The figure below 
 shows the discriminative region and the corresponding frames for
 FCN. The frames are taken from regions marked with a red ellipse.
