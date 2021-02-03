@@ -1,4 +1,4 @@
-This repository contains code and data for the paper *"Interpretable Classification of Human Exercise Videos through Pose Estimation and Multivariate Time Series Analysis
+This repository contains code and data for the paper [*"Interpretable Classification of Human Exercise Videos through Pose Estimation and Multivariate Time Series Analysis](https://www.researchgate.net/publication/348436597_Interpretable_Classification_of_Human_Exercise_Videos_through_Pose_Estimation_and_Multivariate_Time_Series_Analysis)
 "*. The paper presents an approach for the classification and interpretation
 of human motion from video data. It applies state-of-the-art advances in
 the area of Human Pose Estimation for video and Multivariate Time Series Classification
