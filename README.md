@@ -58,9 +58,13 @@ for class A for FCN-CAM. </em>
 
 ## Citation
 Please cite this paper as:
-
-* Interpretable Classification of Human Exercise Videos
-through Pose Estimation and Multivariate Time Series Analysis.
-Ashish Singh, Binh Thanh Le, Thach Le Nguyen, Darragh Whelan,
-Martin O’Reilly, Brian Caulfield, Georgiana Ifrim
+'''
+@incollection{singh2021interpretable,
+  title={Interpretable Classification of Human Exercise Videos through Pose Estimation and Multivariate Time Series Analysis},
+  author={Singh, Ashish and Le, Binh Thanh and Le Nguyen, Thach and Whelan, Darragh and O’Reilly, Martin and Caulfield, Brian and Ifrim, Georgiana},
+  year={2021},
+  booktitle = {5th International Workshop on Health Intelligence(W3PHIAI-21) at AAAI21},
+  publisher={Springer}
+}
+'''
 
