@@ -42,15 +42,16 @@ ROCKET | **0.81** | **0.68**
 FCN | **0.72** | **0.65**
 Resnet | **0.73** | **0.65**
 
-Table showing average accuracy on test data over three train/test splits. Normalising the time series
+The Table shows the average accuracy on test data over three train/test splits. Normalising the time series
 significantly reduces the accuracy of all classifiers, due to losing information about the range and
-magnitude of the signal capturing the exercise movement.
+magnitude of the signal capturing the exercise movement. This points out the importance of time series classifiers that can also work work with unnonrmalised data.
 
 ## Visualization
-We use the Class Activation Mapping (CAM) explanation approach to find the discriminative region for a given time series.
+We use the Class Activation Mapping (CAM) explanation approach to find the discriminative region for a given time series. 
+CAM provides a vector of importance weights for each point in the time series, a higher CAM value means a higher discriminative value for the classifier.
 The discriminative region is mapped back to the original frames in the video. The figure below 
 shows the discriminative region and the corresponding frames for
-FCN. The top 3 frames extracted are the ones corresponding to the top 3 highest values of CAM for this time series.
+FCN. The 3 frames extracted are the ones corresponding to the top 3 highest values of CAM for this time series.
 
 ![Alt](figs/fcn_region2.jpg) ![Alt](figs/fcn_frame.png)
 
