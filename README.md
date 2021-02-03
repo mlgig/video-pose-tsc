@@ -50,7 +50,7 @@ magnitude of the signal capturing the exercise movement.
 We use the Class Activation Mapping (CAM) explanation approach to find the discriminative region for a given time series.
 The discriminative region is mapped back to the original frames in the video. The figure below 
 shows the discriminative region and the corresponding frames for
-FCN.
+FCN. The top 3 frames extracted are the ones corresponding to the top 3 highest values of CAM for this time series.
 
 ![Alt](figs/fcn_region2.jpg) ![Alt](figs/fcn_frame.png)
 
